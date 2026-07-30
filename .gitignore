@@ -1,0 +1,7 @@
+# dump / debug artifacts
+dump.json
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
