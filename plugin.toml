@@ -66,7 +66,7 @@ description_key = "settings.language.description"
 default = "en"
 options = [
   { value = "en", label_key = "settings.language.en" },
-  { value = "zh-Hans", label_key = "settings.language.zh-Hans" },
+  { value = "zh-Hans", label_key = "settings.language.zh-hans" },
 ]
 
 [[setting]]
