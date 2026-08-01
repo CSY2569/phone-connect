@@ -92,7 +92,7 @@ local function heroCard(d)
 				}),
 			ui.column({ gap = 4, flexGrow = 1 }, {
 				ui.label({ text = name, fontSize = 17, fontWeight = "bold", color = "on_surface" }),
-				ui.box({ radius = 10, fill = statusColor .. "/0.15", padding = 4 }, {
+				ui.row({ radius = 10, fill = statusColor .. "/0.15", padding = 4 }, {
 					ui.label({ text = statusText, fontSize = 11, color = statusColor }),
 				}),
 			}),
@@ -295,6 +295,7 @@ end
 
 -- ── Device switcher (bottom, full width, only if >1 device) ─────────────────
 local function switcher(devices, order, sel)
+	local aliasMap = noctalia.state.get("pc.aliasMap") or {}
 	if #order <= 1 then return nil end
 	local items = {}
 	for _, id in ipairs(order) do
