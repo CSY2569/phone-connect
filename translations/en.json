@@ -26,22 +26,6 @@
       "label": "Show Clipboard Action",
       "description": "Show a quick action to send the clipboard to the device."
     },
-    "show_ongoing_media": {
-      "label": "Show Ongoing Media",
-      "description": "Show media currently playing on the phone."
-    },
-    "show_device_placeholder": {
-      "label": "Show Device Placeholder",
-      "description": "Show the device graphic in the details panel."
-    },
-    "scan_subdirectories": {
-      "label": "Scan Subdirectories",
-      "description": "Recursively scan subdirectories of the recent images path."
-    },
-    "max_recent_images": {
-      "label": "Max Recent Images",
-      "description": "Number of recent images to display."
-    },
     "panel_placement": {
       "label": "Panel Placement",
       "description": "How the details panel opens: attached to the bar, or floating.",
@@ -92,7 +76,8 @@
     "accept_failed": "Failed to accept pairing",
     "reject_failed": "Failed to reject pairing",
     "unpair_failed": "Unpair failed",
-    "no_backend": "No backend"
+    "no_backend": "No backend",
+    "cli_failed": "Command failed"
   },
   "panel": {
     "title": "Phone Connect",

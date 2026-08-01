@@ -26,22 +26,6 @@
       "label": "显示剪贴板操作",
       "description": "显示一键发送剪贴板到设备的快捷操作。"
     },
-    "show_ongoing_media": {
-      "label": "显示正在播放",
-      "description": "显示手机上正在播放的媒体。"
-    },
-    "show_device_placeholder": {
-      "label": "显示设备图标",
-      "description": "在详情面板中显示设备图标。"
-    },
-    "scan_subdirectories": {
-      "label": "扫描子目录",
-      "description": "递归扫描最近图片路径下的子目录。"
-    },
-    "max_recent_images": {
-      "label": "最近图片数量",
-      "description": "显示的最近图片数量。"
-    },
     "panel_placement": {
       "label": "面板弹出方式",
       "description": "详情面板的弹出方式。",
@@ -92,7 +76,8 @@
     "accept_failed": "接受配对失败",
     "reject_failed": "拒绝配对失败",
     "unpair_failed": "取消配对失败",
-    "no_backend": "无后端"
+    "no_backend": "无后端",
+    "cli_failed": "命令失败"
   },
   "panel": {
     "title": "手机连接",
