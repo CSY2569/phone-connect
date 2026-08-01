@@ -83,8 +83,6 @@
     "title": "Phone Connect",
     "empty": "No devices found. Pair a device in KDE Connect.",
     "devices_connected": "{connected} connected • {paired} paired",
-    "recent_images": "Recent Images",
-    "no_recent_images": "No recent images found",
     "now_playing": "Now Playing",
     "no_media": "No media playing",
     "image_path": "Custom Image",

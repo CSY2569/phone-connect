@@ -83,8 +83,6 @@
     "title": "手机连接",
     "empty": "未找到设备。请在 KDE Connect 中配对设备。",
     "devices_connected": "已连接 {connected} · 已配对 {paired}",
-    "recent_images": "最近图片",
-    "no_recent_images": "无最近图片",
     "now_playing": "正在播放",
     "no_media": "无媒体播放",
     "image_path": "自定义图片",

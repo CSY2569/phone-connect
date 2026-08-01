@@ -755,6 +755,10 @@ function onIpc(event, payload)
 end
 
 -- Top-level init runs once at load.
+-- Seed config trackers so the first onConfigChanged after reload doesn't
+-- re-apply default custom_image/device_alias and wipe a device's image/alias.
+lastCustomImage = noctalia.getConfig("custom_image") or ""
+lastDeviceAlias = noctalia.getConfig("device_alias") or ""
 detectBackend()
 refreshDevices()
 -- Command channel: UI entries write { op, device, seq, ... } to "pc.cmd".
